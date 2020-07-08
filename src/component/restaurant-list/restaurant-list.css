@@ -1,0 +1,48 @@
+
+li#restaurant-list {
+    background: #fdfdfeb8;
+    padding: 5px 7%;
+    border-bottom: 1px solid grey;
+    list-style: none;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 25% 25%;
+}
+
+ul{
+    padding: 0;
+    color: #000000c4;
+}
+
+#defaultinput {
+    width: 40%;
+    height: 40px;
+    padding: 5px;
+}
+
+input#submitBtn {
+    width: 105px;
+    height: 54px;
+    font-weight: bold;
+}
+form {
+    text-align: center;
+}
+
+#notfound{
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width: 720px) {
+    #defaultinput {
+        width: 30%;
+        height: 30px;
+        padding: 5px;
+    }
+    
+    input#submitBtn {
+        width: 75px;
+        height: 45px;
+        font-weight: bold;
+    }
+  }
